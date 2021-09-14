@@ -30,7 +30,9 @@
 𝚃𝙰𝙺𝙴 𝚂𝚃𝚁𝙸𝙽𝙶 𝙵𝚁𝙾𝙼 𝙷𝙴𝚁𝙴 - 
 
 ### Telethon
-    
+
+[![REPL](https://telegra.ph/file/c7b2bf1ce3208e44beaa1.jpg)](https://replit.com/@ItsBadnam/HearTlessVsBBotz)
+        
 -----------------------------------------------
 
 ### 🖤 CRADIT 💛
