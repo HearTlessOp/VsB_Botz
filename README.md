@@ -20,8 +20,10 @@
 
 -------------------------------------------------
 
-## 🚀 Deploy on Heroku 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/HearTlessOp/VsB_Botz)
+# Click The Image And Deploy Your Bot
+
+[![Deploy](https://telegra.ph/file/c7469922724c33d580ff2.jpg)](https://heroku.com/deploy?template=https://github.com/tana9373/MARATHI_WARRIORS)
+
 
 ------------------------------------------------
 
