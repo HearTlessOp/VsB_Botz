@@ -27,11 +27,11 @@
 
 𝚃𝙰𝙺𝙴 𝚂𝚃𝚁𝙸𝙽𝙶 𝙵𝚁𝙾𝙼 𝙷𝙴𝚁𝙴 - 
 
-[![REPL](https://repl.it/badge/github/spandey112/SensibleUserbot)](https://replit.com/@Romi2122/RaviiSpam#main.py)
+### Python
     
 -----------------------------------------------
 
 ### 🖤 CRADIT 💛
 
-[![telegram badge](https://img.shields.io/badge/BADNAM-30302f?style=for-the-badge&logo=telegram)](https://t.me/its_badnam)
+[![telegram badge](https://img.shields.io/badge/𝘽ᴀᴅɴᴀᴍ𝙊ᴘ-30302f?style=for-the-badge&logo=telegram)](https://t.me/its_badnam)
 
