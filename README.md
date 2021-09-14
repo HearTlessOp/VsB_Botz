@@ -22,7 +22,7 @@
 
 # Click The Boobs Deploy ...
 
-[![Deploy](https://telegra.ph/file/c7469922724c33d580ff2.jpg)](https://heroku.com/deploy?template=https://github.com/HearTlessOp/VsB_Botz)
+[![Deploy](https://telegra.ph/file/0c4302d5604fda25a57b9.jpg)](https://heroku.com/deploy?template=https://github.com/HearTlessOp/VsB_Botz)
 
 
 ------------------------------------------------
