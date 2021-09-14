@@ -317,9 +317,9 @@ async def gifspam(e, smex):
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.join <Public Channel or Group Link/Username>"
     if e.sender_id in SMEX_USERS:
-        MLO = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        VsB = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 6:
-            bc = MLO[0]
+            bc = VsB[0]
             text = "Joining..."
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
@@ -344,9 +344,9 @@ async def _(e):
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.pjoin <Private Channel or Group's access hash>\n\nExample :\nLink = https://t.me/joinchat/HGYs1wvsPUplMmM1\n\n.pjoin HGYs1wvsPUplMmM1"
     if e.sender_id in SMEX_USERS:
-        MLO = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        VsB = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
-            bc = MLO[0]
+            bc = VsB[0]
             text = "Joining...."
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
@@ -371,9 +371,9 @@ async def _(e):
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.bleave <Channel or Chat ID>"
     if e.sender_id in SMEX_USERS:
-        MLO = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        VsB = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
-            bc = MLO[0]
+            bc = VsB[0]
             bc = int(bc)
             text = "Leaving....."
             event = await e.reply(text, parse_mode=None, link_preview=None)
@@ -404,16 +404,16 @@ async def spam(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None)
-        MLO = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        VsB = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
-        if len(MLO) == 2:
-            message = str(MLO[1])
-            counter = int(MLO[0])
+        if len(VsB) == 2:
+            message = str(VsB[1])
+            counter = int(VsB[0])
             if counter > 100:
                 return await e.reply(error, parse_mode=None, link_preview=None)
             await asyncio.wait([e.respond(message) for i in range(counter)])
         elif e.reply_to_msg_id and smex.media:
-            counter = int(MLO[0])
+            counter = int(VsB[0])
             if counter > 100:
                 return await e.reply(error, parse_mode=None, link_preview=None)
             for _ in range(counter):
@@ -421,7 +421,7 @@ async def spam(e):
                 await gifspam(e, smex)
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
-            counter = int(MLO[0])
+            counter = int(VsB[0])
             if counter > 100:
                 return await e.reply(error, parse_mode=None, link_preview=None)
             await asyncio.wait([e.respond(message) for i in range(counter)])
@@ -445,12 +445,12 @@ async def spam(e):
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None)
         smex = await e.get_reply_message()
-        MLO = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
-        Professorsexy = MLO[1:]
-        if len(Professorsexy) == 2:
-            message = str(Professorsexy[1])
-            counter = int(Professorsexy[0])
-            sleeptime = float(MLO[0])
+        VsB = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
+        HearTlesssexy = VsB[1:]
+        if len(HearTlesssexy) == 2:
+            message = str(HearTlesssexy[1])
+            counter = int(HearTlesssexy[0])
+            sleeptime = float(VsB[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     if e.reply_to_msg_id:
@@ -459,8 +459,8 @@ async def spam(e):
                         await e.client.send_message(e.chat_id, message)
                     await asyncio.sleep(sleeptime)
         elif e.reply_to_msg_id and smex.media:
-            counter = int(Professorsexy[0])
-            sleeptime = float(MLO[0])
+            counter = int(HearTlesssexy[0])
+            sleeptime = float(VsB[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
                     smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
@@ -468,8 +468,8 @@ async def spam(e):
                 await asyncio.sleep(sleeptime)
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
-            counter = int(Professorsexy[0])
-            sleeptime = float(MLO[0])
+            counter = int(HearTlesssexy[0])
+            sleeptime = float(VsB[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, message)
@@ -493,11 +493,11 @@ async def spam(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None)
-        MLO = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        VsB = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
-        if len(MLO) == 2:
-            message = str(MLO[1])
-            counter = int(MLO[0])
+        if len(VsB) == 2:
+            message = str(VsB[1])
+            counter = int(VsB[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     if e.reply_to_msg_id:
@@ -506,7 +506,7 @@ async def spam(e):
                         await e.client.send_message(e.chat_id, message)
                     await asyncio.sleep(0.3)
         elif e.reply_to_msg_id and smex.media:
-            counter = int(MLO[0])
+            counter = int(VsB[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
                     smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
@@ -514,7 +514,7 @@ async def spam(e):
                 await asyncio.sleep(0.3)
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
-            counter = int(MLO[0])
+            counter = int(VsB[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, message)
@@ -538,16 +538,16 @@ async def spam(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None)
-        Lallan = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        Gabbar = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         await e.get_reply_message()
-        if len(Lallan) == 2:
-            message = str(Lallan[1])
+        if len(Gabbar) == 2:
+            message = str(Gabbar[1])
             print(message)
             a = await e.client.get_entity(message)
             g = a.id
             c = a.first_name
             username = f"[{c}](tg://user?id={g})"
-            counter = int(Lallan[0])
+            counter = int(Gabbar[0])
             for _ in range(counter):
                 reply = random.choice(RAID)
                 caption = f"{username} {reply}"
@@ -559,7 +559,7 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             c = b.first_name
-            counter = int(Lallan[0])
+            counter = int(Gabbar[0])
             username = f"[{c}](tg://user?id={g})"
             for _ in range(counter):
                 reply = random.choice(RAID)
@@ -612,10 +612,10 @@ async def _(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None)
-        MLO = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        VsB = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         await e.get_reply_message()
         if len(e.text) > 11:
-            message = str(MLO[0])
+            message = str(VsB[0])
             a = await e.client.get_entity(message)
             g = a.id
             que[g] = []
@@ -654,10 +654,10 @@ async def _(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None)
-        MLO = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        VsB = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         await e.get_reply_message()
         if len(e.text) > 12:
-            message = str(MLO[0])
+            message = str(VsB[0])
             a = await e.client.get_entity(message)
             g = a.id
             try:
@@ -695,7 +695,7 @@ async def _(e):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "Wait!"
+        text = "HearTless VsB!"
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
@@ -716,7 +716,7 @@ async def ping(e):
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.reboot"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝑹𝒆𝒃𝒐𝒐𝒕𝒆𝒅\n\nPlease wait till it reboots..."
+        text = "𝙃𝙚𝙖𝙧𝙏 𝙍𝙚𝙗𝙤𝙤𝙩𝙚𝙙\n\nPlease wait till it reboots..."
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await idk.disconnect()
