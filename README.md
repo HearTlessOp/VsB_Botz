@@ -1,8 +1,8 @@
 
-# RED ALERT SPAM BOT
+### ʜᴇᴀʀᴛʟᴇꜱꜱ ꜱᴘᴀᴍ ʙᴏᴛᴢ
 
 <p align="center">
-  <img src="https://telegra.ph/file/77d5a9b6a8f142223a3e9.jpg">
+  <img src="https://telegra.ph/file/2d2dc00f1eda5077c5b4b.jpg">
 </p>
 
 -------------------------------------------------
