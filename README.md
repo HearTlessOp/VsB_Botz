@@ -15,7 +15,7 @@
 -------------------------------------------------
 ### 🖤 ᴄʀᴇᴀᴛᴏʀ 🖤
 
-[![telegram badge](https://img.shields.io/badge/S͟ᴀᴍʙᴏᴅʜɪʀᴀᴊ-30302f?style=for-the-badge&logo=telegram)](https://t.me/OFFICIAL_SAMBODHIRAJ)
+[![telegram badge](https://img.shields.io/badge/S͟ᴀᴍʙᴏᴅʜɪʀᴀᴊ-30302f?style=for-the-badge&logo=telegram)](https://t.me/ITZ_SAMBODHIRAJ)
 
 
 -------------------------------------------------
