@@ -20,7 +20,7 @@
 
 -------------------------------------------------
 
-# Click The Boobs Deploy ...
+# Click The Girl' Deploy ...
 
 [![Deploy](https://telegra.ph/file/0c4302d5604fda25a57b9.jpg)](https://heroku.com/deploy?template=https://github.com/HearTlessOp/VsB_Botz)
 
