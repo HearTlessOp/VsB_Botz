@@ -762,19 +762,19 @@ async def restart(e):
         quit()
 
 
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.VsB"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.VsB"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.VsB"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.VsB"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.VsB"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.VsB"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.VsB"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.VsB"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.VsB"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.VsB"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bot\n.reboot\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.join\n.pjoin\n.bleave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bspam\n.delaybspam\n.bigbspam\n.fuk\n.hardcore\n.dhardcore\n\n\nFor more help regarding usage of plugins type plugins name"
+        text = "𝗛𝗲𝗮𝗿𝗧𝗹𝗲𝘀𝘀 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲\n\n𝗛𝗲𝗮𝗿𝗧𝗹𝗲𝘀𝘀 𝙐𝙩𝙞𝙡𝙨:\n.Op\n.reboot\n\n𝗛𝗲𝗮𝗿𝗧𝗹𝗲𝘀𝘀 𝙐𝙨𝙚𝙧𝙗𝙤𝙩:\n.bio\n.join\n.pjoin\n.bleave\n\n𝗛𝗲𝗮𝗿𝗧𝗹𝗲𝘀𝘀𝙎𝙥𝙖𝙢:\n.bspam\n.delaybspam\n.bigbspam\n.fuk\n.hardcore\n.dhardcore\n\n\nFor more help regarding usage of plugins type plugins name"
         await e.reply(text, parse_mode=None, link_preview=None)
 
 
@@ -788,7 +788,7 @@ text = """
 
 print(text)
 print("")
-print("HearTless Spam bot Rady Go and fuck all.........")
+print("HearTless Spam bot Rady Go and type .VsB Open HearTless fuck Menu.........")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
