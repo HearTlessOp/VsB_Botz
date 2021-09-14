@@ -682,16 +682,16 @@ async def _(e):
             await e.reply(usage, parse_mode=None, link_preview=None)
 
 
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.bot"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.bot"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.bot"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.bot"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.bot"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.bot"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.bot"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.bot"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.bot"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.bot"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.op"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.op"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.op"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.op"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.op"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.op"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.op"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.op"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.op"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.op"))
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
