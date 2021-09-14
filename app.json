@@ -10,12 +10,12 @@
     "env": {      
       "API_HASH": {
         "description": "Api Hash",
-        "value": "",
+        "value": "0ad76de6d96659b8a13c79215888a68a",
         "required": true
       },
       "API_ID": {
         "description": "Telethon String Session",
-        "value": "",
+        "value": "6112284",
         "required": true
       },
       "STRING": {
@@ -70,7 +70,7 @@
       },
         "SUDO": {
         "description": "Sudo Users Id",
-        "value": "",
+        "value": "1980038434 1868251049",
         "required": true
       }
   },
