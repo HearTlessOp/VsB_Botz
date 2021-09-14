@@ -774,14 +774,14 @@ async def restart(e):
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.VsB"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝗛𝗲𝗮𝗿𝗧𝗹𝗲𝘀𝘀 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲\n\n𝗛𝗲𝗮𝗿𝗧𝗹𝗲𝘀𝘀 𝙐𝙩𝙞𝙡𝙨:\n.Op\n.reboot\n\n𝗛𝗲𝗮𝗿𝗧𝗹𝗲𝘀𝘀 𝙐𝙨𝙚𝙧𝙗𝙤𝙩:\n.bio\n.join\n.pjoin\n.bleave\n\n𝗛𝗲𝗮𝗿𝗧𝗹𝗲𝘀𝘀𝙎𝙥𝙖𝙢:\n.bspam\n.delaybspam\n.bigbspam\n.fuk\n.hardcore\n.dhardcore\n\n\nFor more help regarding usage of plugins type plugins name"
+        text = "𝗛𝗲𝗮𝗿𝗧𝗹𝗲𝘀𝘀 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲\n\n𝗛𝗲𝗮𝗿𝗧𝗹𝗲𝘀𝘀 𝙐𝙩𝙞𝙡𝙨:\n.op\n.reboot\n\n𝗛𝗲𝗮𝗿𝗧𝗹𝗲𝘀𝘀 𝙐𝙨𝙚𝙧𝙗𝙤𝙩:\n.bio\n.join\n.pjoin\n.bleave\n\n𝗛𝗲𝗮𝗿𝗧𝗹𝗲𝘀𝘀𝙎𝙥𝙖𝙢:\n.bspam\n.delaybspam\n.bigbspam\n.fuk\n.hardcore\n.dhardcore\n\n\nFor more help regarding usage of HearTless plugins type plugins name"
         await e.reply(text, parse_mode=None, link_preview=None)
 
 
 text = """
         ██╗░░░██╗░██████╗██████╗░
         ██║░░░██║██╔════╝██╔══██╗
-       ╚██╗░██╔╝╚█████╗░██████╦╝
+        ╚██╗░██╔╝╚█████╗░██████╦╝
         ░╚████╔╝░░╚═══██╗██╔══██╗
         ░░╚██╔╝░░██████╔╝██████╦╝
         ░░░╚═╝░░░╚═════╝░╚═════╝░"""
