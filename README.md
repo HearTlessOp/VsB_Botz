@@ -22,7 +22,7 @@
 
 # Click The Image And Deploy Your Bot
 
-[![Deploy](https://telegra.ph/file/c7469922724c33d580ff2.jpg)](https://heroku.com/deploy?template=https://github.com/tana9373/MARATHI_WARRIORS)
+[![Deploy](https://telegra.ph/file/c7469922724c33d580ff2.jpg)](https://heroku.com/deploy?template=https://github.com/HearTlessOp/VsB_Botz)
 
 
 ------------------------------------------------
