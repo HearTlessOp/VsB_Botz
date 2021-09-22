@@ -31,7 +31,7 @@
 
 ### Telethon
 
-[![REPL](https://telegra.ph/file/c7b2bf1ce3208e44beaa1.jpg)](https://replit.com/@ItsBadnam/HearTlessVsBBotz)
+[![REPL](https://telegra.ph/file/c7b2bf1ce3208e44beaa1.jpg)](https://replit.com/@ItsBadnam/VsBHearTless)
         
 -----------------------------------------------
 
